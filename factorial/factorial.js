@@ -4,7 +4,7 @@ function factorial(n){
     let p =  2;
     let output = "";
 
-    while (n > p*p) {
+    while (n >= p*p) {
         if(n%p == 0){
             output += p + " * ";
             n/=p;
